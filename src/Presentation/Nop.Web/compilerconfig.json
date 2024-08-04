@@ -1,0 +1,9 @@
+﻿[
+  {
+    "outputFile": "Themes/DefaultClean/Content/css/styles.css",
+    "inputFile": "Themes/DefaultClean/Content/scss/styles.scss",
+    "minify": {
+      "enabled": false
+    }
+  }
+]
