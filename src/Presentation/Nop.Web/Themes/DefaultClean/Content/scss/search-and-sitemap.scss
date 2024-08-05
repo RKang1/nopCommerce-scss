@@ -1,0 +1,127 @@
+/// <reference path="vars/colors.scss" />
+@use 'vars/colors.scss' as *;
+
+/****** SEARCH & SITEMAP ******/
+
+.search-page .page-title {
+    margin: 0 0 -1px;
+}
+
+.search-input .fieldset {
+    margin: 0 0 30px;
+}
+
+.search-input .form-fields {
+    padding: 30px 15px 10px;
+}
+
+.search-input input + label {
+    display: inline;
+    margin: 0 0 0 5px;
+}
+
+.advanced-search {
+    margin: 30px 0 0;
+}
+
+.advanced-search .price-range {
+    display: inline-block;
+}
+
+.advanced-search .price-range input {
+    width: 80px;
+    margin: 3px;
+}
+
+.search-input .buttons {
+    text-align: center;
+}
+
+.search-input .button-1 {
+    min-width: 140px;
+    border: none;
+    background-color: $blue-1;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 15px;
+    color: $white-1;
+    text-transform: uppercase;
+}
+
+.search-input .button-1:hover,
+.search-input .button-1:focus {
+    background-color: $blue-2;
+}
+
+.search-results {
+    margin: 30px 0 0;
+}
+
+.search-results .warning {
+    margin: 10px 0;
+    color: $red-1;
+}
+
+.sitemap-page .description {
+    margin: 0 0 30px;
+    text-align: center;
+}
+
+.sitemap-page .entity {
+    margin: 0 0 30px;
+}
+
+.sitemap-page .entity-title {
+    margin: 0 0 15px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.sitemap-page .entity-title h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: $gray-2;
+}
+
+.sitemap-page .entity-body {
+    border-top: 1px solid $gray-5;
+    background-color: $gray-6;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.sitemap-page .entity ul {
+    font-size: 0;
+}
+
+.sitemap-page .entity li {
+    display: inline-block;
+    position: relative;
+    margin: 0 8px;
+    padding: 0 12px;
+    line-height: 50px;
+    font-size: 14px; /*reset zeroing*/
+}
+
+.sitemap-page .entity li:before {
+    content: "";
+    position: absolute;
+    top: 23px;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    background-color: $gray-3;
+}
+
+.sitemap-page .entity a {
+    color: $gray-2;
+}
+
+.sitemap-page .entity a:hover,
+.sitemap-page .entity a:focus {
+    color: $blue-1;
+}
+
+.sitemap-page .entity a:empty {
+    display: none;
+}
