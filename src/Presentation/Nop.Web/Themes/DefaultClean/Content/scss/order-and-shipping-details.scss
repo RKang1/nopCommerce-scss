@@ -1,0 +1,163 @@
+﻿/// <reference path="vars/colors.scss" />
+@use 'vars/colors.scss' as *;
+
+/****** ORDER DETAILS & SHIPPING DETAILS ******/
+
+.order-details-page .page-title {
+    border-bottom: none;
+}
+
+.order-details-page .page-title h1 {
+    margin: 0 0 30px;
+    border-bottom: 1px solid $gray-3;
+    padding: 0 0 10px;
+}
+
+.order-details-page .page-title a {
+    display: inline-block;
+    min-width: 180px;
+    margin: 5px 0;
+    border: none;
+    background-color: $gray-12;
+    background-image: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: $white-1;
+}
+
+.order-details-page .page-title a:hover,
+.order-details-page .page-title a:focus {
+    background-color: $gray-15;
+}
+
+.order-details-page .page-title a.print-order-button {
+    background-color: $blue-1;
+}
+
+.order-details-page .page-title a.print-order-button:hover,
+.order-details-page .page-title a.print-order-button:focus {
+    background-color: $blue-2;
+}
+
+.order-details-page .order-overview {
+    margin: 0 0 50px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 16px;
+    color: $gray-2;
+}
+
+.order-details-page .order-overview .order-number {
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+
+.order-details-page .order-overview .order-total strong {
+    font-weight: normal;
+    color: $blue-1;
+}
+
+.order-details-page .repost .button-2 {
+    display: inline-block;
+    margin: 10px 0;
+    border: none;
+    background-color: $blue-1;
+    padding: 10px 15px;
+    font-size: 12px;
+    color: $white-1;
+    text-transform: uppercase;
+}
+
+.order-details-page .repost .button-2:hover,
+.order-details-page .repost .button-2:focus {
+    background-color: $blue-2;
+}
+
+.order-details-page .download a {
+    font-weight: normal;
+    color: $blue-1;
+}
+
+.order-details-page .download a:hover,
+.order-details-page .download a:focus {
+    text-decoration: underline;
+}
+
+.user-agreement-page .terms-of-agreement {
+    margin: 0 0 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.user-agreement-page .button-1 {
+    min-width: 140px;
+    border: none;
+    background-color: $blue-1;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 15px;
+    color: $white-1;
+    text-transform: uppercase;
+}
+
+.user-agreement-page .button-1:hover,
+.user-agreement-page .button-1:focus {
+    background-color: $blue-2;
+}
+
+.order-details-page .tax-shipping-info {
+    margin: 30px 0;
+}
+
+.order-details-page .tax-shipping-info a {
+    color: $blue-1;
+}
+
+.order-details-page .tax-shipping-info a:hover,
+.order-details-page .tax-shipping-info a:focus {
+    text-decoration: underline;
+}
+
+.order-details-page .actions {
+    margin: 30px 0 0;
+    font-size: 0;
+}
+
+.order-details-page .actions button {
+    display: inline-block;
+    min-width: 165px;
+    margin: 5px;
+    border: none;
+    background-color: $gray-12;
+    background-image: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: $white-1;
+}
+
+.order-details-page .actions button:hover,
+.order-details-page .actions button:focus {
+    background-color: $gray-15;
+}
+
+.order-details-page .actions button:first-child {
+    background-color: $blue-1;
+}
+
+.order-details-page .actions button:first-child:hover,
+.order-details-page .actions button:first-child:focus {
+    background-color: $blue-2;
+}
+
+.order-details-page .totals.section {
+    width: 370px;
+    padding: 0 10px;
+    max-width: 100%;
+    margin: 0 auto 50px;
+}
+
+.order-details-page .total-info {
+    background-color: $gray-6;
+    padding: 15px 20px;
+    color: $gray-2;
+}
