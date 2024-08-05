@@ -1,0 +1,28 @@
+@media all and (max-width: 769px) {
+    .review-rating .name-description {
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+
+    .write-review .review-rating div {
+        text-align: center;
+        padding-bottom: 10px;
+        display: inline-block;
+    }
+
+    /*** ESTIMATE SHIPPING POPUP ***/
+
+    .shipping-address {
+        flex-flow: column;
+    }
+
+    .address-item {
+        width: 100%;
+    }
+
+    .estimate-shipping-row-item.address-item + .estimate-shipping-row-item.address-item {
+        padding-left: 0px;
+        padding-top: 8px;
+    }
+}

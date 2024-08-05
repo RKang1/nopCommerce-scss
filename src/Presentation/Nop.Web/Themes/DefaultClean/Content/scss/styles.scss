@@ -22,3 +22,9 @@
 @use 'search-and-sitemap.scss';
 @use 'blog-and-news.scss';
 @use 'forum-and-profile.scss';
+@use 'responsive/max-width-769px.scss';
+@use 'responsive/max-width-1000px.scss';
+@use 'responsive/min-width-481px.scss';
+@use 'responsive/min-width-769px.scss';
+@use 'responsive/min-width-1001px.scss';
+@use 'responsive/min-width-1367px.scss';
