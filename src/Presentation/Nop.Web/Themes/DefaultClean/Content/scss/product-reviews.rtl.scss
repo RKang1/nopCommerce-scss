@@ -1,0 +1,206 @@
+/// <reference path="vars/colors.scss" />
+@use 'vars/colors.scss' as *;
+
+/********** PRODUCT REVIEWS **********/
+
+.product-reviews h1 a {
+    display: inline-block;
+    color: $blue-1;
+}
+
+.product-reviews h1 a:before,
+.product-reviews h1 a:after {
+    content: "''";
+}
+
+.product-reviews .title {
+    margin: 0 0 20px;
+    font-size: 20px;
+    color: $gray-2;
+}
+
+.product-reviews .title strong {
+    font-weight: normal;
+}
+
+.write-review {
+    margin: 0 0 60px;
+}
+
+.write-review .fieldset {
+    margin: 0 0 30px;
+}
+
+.tooltip {
+    position: initial;
+    display: inline-block;
+    border-bottom: 1px dotted $black-1;
+    color: $gray-2;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: auto;
+    background: $gray-17 no-repeat 100% 5%;
+    border: $gray-18 1px dotted;
+    text-align: right;
+    padding: 10px 10px 5px 5px;
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+}
+
+.tooltip:hover .tooltiptext,
+.tooltip:focus .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+    cursor: help;
+}
+
+.write-review .review-rating {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.write-review .review-rating label {
+    display: block;
+    margin: 0 0 5px;
+    font-size: 14px;
+    color: $gray-2;
+}
+
+.write-review .review-rating div.first {
+    color: $red-2;
+}
+
+.write-review .review-rating div.rating-options {
+    padding-top: 2px;
+}
+
+.write-review .review-rating div.rating-options input {
+    vertical-align: baseline;
+}
+
+.write-review .review-rating div.last {
+    color: $green-1;
+}
+
+.write-review .captcha-box {
+    margin: 15px 0 0;
+}
+
+.write-review .button-1 {
+    border: none;
+    background-color: $blue-1;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 15px;
+    color: $white-1;
+    text-transform: uppercase;
+}
+
+.write-review .button-1:hover,
+.write-review .button-1:focus {
+    background-color: $blue-2;
+}
+
+.product-reviews .result,
+.product-reviews .message-error {
+    margin: 0 0 20px;
+}
+
+.product-review-list {
+    overflow: hidden;
+}
+
+.product-review-item {
+    margin: 0 0 40px;
+}
+
+.product-review-item .review-item-head {
+    border-top: 1px solid $gray-3;
+    overflow: hidden;
+    background-color: $gray-7;
+    padding: 10px;
+}
+
+.product-review-item .review-title {
+    line-height: 20px;
+    font-size: 15px;
+    color: $gray-2;
+}
+
+.product-review-item .product-review-box {
+    margin: 3px 0 0;
+}
+
+.product-review-item .review-content {
+    padding: 20px 10px;
+}
+
+.product-review-item .review-text {
+    margin: 0 0 15px;
+    line-height: 22px;
+    color: $gray-2;
+}
+
+.product-review-item .avatar {
+    margin: 0 0 10px;
+}
+
+.product-review-item .reply {
+    margin: 15px 0;
+    border-top: 1px solid $gray-3;
+}
+
+.product-review-item .reply-header {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.product-review-item .reply-text {
+    line-height: 22px;
+}
+
+.product-review-item .review-info {
+    margin: 0 0 5px;
+}
+
+.product-review-item .review-info label {
+    font-weight: normal;
+}
+
+.product-review-item .review-info *,
+.product-review-helpfulness * {
+    display: inline-block;
+}
+
+.product-review-item .review-info a,
+.product-review-helpfulness .vote {
+    display: inline-block;
+    padding: 0 5px;
+    color: $blue-1;
+    cursor: pointer;
+}
+
+.product-review-helpfulness .question {
+    margin: 0 0 0 5px;
+    font-style: italic;
+}
+
+.product-review-helpfulness .result {
+    margin: 0 10px 0 0;
+}
+
+.product-review-item .review-type-rating-ext {
+    overflow: hidden;
+    margin: 0 0 20px;
+}
