@@ -1,0 +1,199 @@
+/// <reference path="../vars/colors.scss" />
+@use '../vars/colors.scss' as *;
+
+/*********** GLOBAL TABLES ***********/
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.data-table .hidden-row {
+    height: 1px;
+    border: none;
+}
+
+.data-table tr.hidden-row th {
+    padding: 0;
+    border-top: none;
+}
+
+.data-table tr.hidden-row th > span {
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    overflow: hidden;
+    top: -10px;
+}
+
+.cart th,
+.data-table th,
+.forum-table th {
+    border-width: 1px 1px 0;
+    border-style: solid;
+    border-color: $gray-3;
+    background-color: $gray-7;
+    padding: 10px;
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+.forum-table th.replies,
+.forum-table th.views,
+.forum-table th.votes,
+.forum-table th.latest-post,
+.forum-table th.topics,
+.forum-table th.posts,
+.forum-table td.replies,
+.forum-table td.views,
+.forum-table td.votes,
+.forum-table td.latest-post,
+.forum-table td.topics,
+.forum-table td.posts {
+    display: none;
+}
+
+.forum-table td.image {
+    min-width: 0;
+}
+
+.cart td,
+.data-table td,
+.forum-table td {
+    min-width: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent $gray-3 $gray-3;
+    background-color: $white-1;
+    padding: 20px;
+    color: $gray-2;
+}
+
+.forum-table td {
+    min-width: 90px;
+    padding: 10px;
+}
+
+.cart a,
+.data-table a,
+.forum-table a {
+    font-weight: normal;
+    color: $blue-1;
+}
+
+.cart a:hover,
+.cart a:focus,
+.data-table a:hover,
+.data-table a:focus,
+.forum-table a:hover,
+.forum-table a:focus {
+    text-decoration: underline;
+}
+
+.cart .product,
+.data-table .product,
+.data-table .message,
+.data-table .info,
+.data-table .name {
+    min-width: 225px;
+    text-align: right;
+}
+
+.forum-table .forum-details,
+.forum-table .topic-details {
+    text-align: right;
+}
+
+.cart .product a,
+.data-table .product a,
+.data-table .info a {
+    font-weight: bold;
+    color: $gray-2;
+}
+
+.cart .product a:hover,
+.cart .product a:focus,
+.data-table .product a:hover,
+.data-table .product a:focus,
+.data-table .info a:hover,
+.data-table .info a:focus {
+    color: $blue-1;
+    text-decoration: none;
+}
+
+.cart .product .edit-item {
+    margin: 10px 0 0;
+}
+
+.cart .product .edit-item a {
+    font-weight: normal;
+    color: $blue-1;
+}
+
+.cart .product .edit-item a:hover,
+.cart .product .edit-item a:focus {
+    text-decoration: underline;
+}
+
+.cart .remove-from-cart,
+.cart .add-to-cart,
+.data-table .select-boxes,
+.data-table .order {
+    text-align: center;
+}
+
+.cart .remove-from-cart input[type="checkbox"] {
+    display: none;
+}
+
+.cart .remove-from-cart .remove-btn {
+    width: 11px;
+    height: 11px;
+    border: 0;
+    background: $white-2 url(../images/remove.png) center no-repeat;
+}
+
+.cart td.unit-price,
+.data-table td.unit-price {
+    white-space: nowrap;
+}
+
+.cart td.quantity input {
+    width: 50px;
+    text-align: center;
+}
+
+.cart .product-quantity div.up {
+    background: url('../images/vote-up.png') no-repeat 50% 50%;
+    width: 50px;
+    height: 25px;
+    border: 0;
+    cursor: pointer;
+}
+
+.cart .product-quantity div.down {
+    background: url('../images/vote-down.png') no-repeat 50% 50%;
+    width: 50px;
+    height: 25px;
+    border: 0;
+    cursor: pointer;
+}
+
+.cart td.subtotal,
+.data-table td.total {
+    white-space: nowrap;
+    color: $gray-2;
+}
+
+.cart td.subtotal .discount, .cart td.subtotal .discount-additional-info {
+    font-style: italic;
+    color: $blue-1;
+}
+
+.data-table em a {
+    font-weight: bold;
+    color: $gray-2;
+}
+
+.data-table div.download {
+    margin: 10px 0 0;
+}
