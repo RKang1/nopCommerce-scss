@@ -5,5 +5,12 @@
     "minify": {
       "enabled": false
     }
+  },
+  {
+    "outputFile": "Themes/DefaultClean/Content/css/styles.rtl.css",
+    "inputFile": "Themes/DefaultClean/Content/scss/styles.rtl.scss",
+    "minify": {
+      "enabled": false
+    }
   }
 ]
