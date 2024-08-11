@@ -12,5 +12,12 @@
     "minify": {
       "enabled": false
     }
+  },
+  {
+    "outputFile": "Themes/DefaultClean/Content/css/print.css",
+    "inputFile": "Themes/DefaultClean/Content/scss/print.scss",
+    "minify": {
+      "enabled": false
+    }
   }
 ]
