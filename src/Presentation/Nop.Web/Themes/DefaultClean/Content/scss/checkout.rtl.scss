@@ -30,7 +30,7 @@
     display: inline-block;
     min-width: 140px;
     border: none;
-    background-color: $blue-1;
+    background-color: $button-color;
     padding: 10px 30px;
     text-align: center;
     font-size: 15px;
@@ -276,7 +276,7 @@
 }
 
 .order-completed .details a {
-    color: $blue-1;
+    color: $active-link-color;
 }
 
 .order-completed .details a:hover,
@@ -291,7 +291,7 @@
 }
 
 .opc .allow .step-title {
-    background-color: $blue-1;
+    background-color: $button-color;
     cursor: pointer;
 }
 
@@ -363,7 +363,7 @@
 
 .opc .back-link a:hover,
 .opc .back-link a:focus {
-    color: $blue-1;
+    color: $link-hover-color;
 }
 
 .opc .buttons .please-wait {
