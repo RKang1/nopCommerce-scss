@@ -47,7 +47,7 @@
 .post-title:focus,
 .news-title:hover,
 .news-title:focus {
-    color: $blue-1;
+    color: $link-hover-color;
 }
 
 .post-date,
@@ -103,7 +103,7 @@
 .blog-page .tags a,
 .blogpost-page .tags a {
     display: block;
-    color: $blue-1;
+    color: $tag-color;
 }
 
 .blog-page .tags a:hover,
@@ -128,14 +128,14 @@
 
 .blog-posts .buttons .read-comments:hover,
 .blog-posts .buttons .read-comments:focus {
-    color: $blue-1;
+    color: $link-hover-color;
 }
 
 .blog-posts .buttons .read-more,
 .news-items .buttons .read-more {
     display: inline-block;
     border: none;
-    background-color: $blue-1;
+    background-color: $button-color;
     padding: 10px 20px;
     font-size: 12px;
     color: $white-1;
@@ -167,7 +167,7 @@
 
 .new-comment .button-1 {
     border: none;
-    background-color: $blue-1;
+    background-color: $button-color;
     padding: 10px 30px;
     text-align: center;
     font-size: 15px;
@@ -223,7 +223,7 @@
 
 .comment-info a.username:hover,
 .comment-info a.username:focus {
-    color: $blue-1;
+    color: $link-hover-color;
 }
 
 .comment-info .avatar {
@@ -295,5 +295,5 @@
 
 .news-list-homepage .view-all a:hover,
 .news-list-homepage .view-all a:focus {
-    color: $blue-1;
+    color: $link-hover-color;
 }
