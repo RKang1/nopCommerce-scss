@@ -29,7 +29,7 @@
 }
 
 .breadcrumb a:hover {
-    color: $blue-1;
+    color: $link-hover-color;
 }
 
 .category-description,
@@ -45,7 +45,7 @@
 
 .contact-vendor .button-2 {
     border: none;
-    background-color: $blue-1;
+    background-color: $button-color;
     padding: 10px 15px;
     font-size: 14px;
     color: $white-1;
@@ -238,7 +238,7 @@
     font-size: 17px;
     line-height: 1.2;
     font-weight: normal;
-    color: $blue-1;
+    color: $active-link-color;
 }
 
 .item-box .product-title a {
@@ -312,7 +312,7 @@
 }
 
 .item-box .tax-shipping-info a {
-    color: $blue-1;
+    color: $active-link-color;
 }
 
 .item-box .tax-shipping-info a:hover,
@@ -334,7 +334,7 @@
 
 .item-box .product-box-add-to-cart-button {
     width: 60%;
-    background-color: $blue-1;
+    background-color: $button-color;
     text-align: center;
     font-size: 15px;
     color: $white-1;
@@ -442,7 +442,7 @@
 
 .manufacturer-grid .title a:hover,
 .manufacturer-grid .title a:focus {
-    color: $blue-1;
+    color: $link-hover-color;
 }
 
 .manufacturer-grid .picture {
@@ -457,7 +457,7 @@
 
 .vendor-grid .title a:hover,
 .vendor-grid .title a:focus {
-    color: $blue-1;
+    color: $link-hover-color;
 }
 
 .vendor-grid .picture {
@@ -494,7 +494,7 @@
 
 .pager li span {
     border-color: transparent;
-    background-color: $blue-1;
+    background-color: $active-link-color;
     color: $white-1;
 }
 
