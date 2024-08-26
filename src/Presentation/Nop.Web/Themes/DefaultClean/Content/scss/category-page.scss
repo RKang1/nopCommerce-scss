@@ -5,7 +5,7 @@
 
 .breadcrumb {
     margin: 0 0 50px;
-    background-color: $gray-7;
+    background-color: $alt-row-color;
     padding: 5px 10px;
 }
 
@@ -49,19 +49,19 @@
     background-color: $button-color;
     padding: 10px 15px;
     font-size: 14px;
-    color: $white-1;
+    color: $button-text-color;
     text-transform: uppercase;
 }
 
 .contact-vendor .button-2:hover,
 .contact-vendor .button-2:focus {
-    background-color: $blue-2
+    background-color: $button-hover-color
 }
 
 .product-selectors {
     margin: 0 0 20px;
-    border-top: 1px solid $gray-3;
-    border-bottom: 1px solid $gray-3;
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
     padding: 20px 0;
 }
 
@@ -96,10 +96,10 @@
 
 .product-filter .filter-title {
     margin: 0 0 10px;
-    background: $gray-7 url('../images/toggle-gray.png') right 10px no-repeat;
+    background: $alt-row-color url('../images/toggle-gray.png') right 10px no-repeat;
     padding: 10px;
     font-size: 17px;
-    color: $gray-2;
+    color: $header-color;
 }
 
 .product-filter .filter-title strong {
@@ -108,7 +108,7 @@
 
 .product-filter .filter-content {
     padding: 10px;
-    color: $gray-2;
+    color: $header-color;
     margin-bottom: 20px;
 }
 
@@ -189,7 +189,7 @@
 
 .item-box .picture {
     z-index: 1;
-    background-color: $white-1;
+    background-color: $picture-hover-color;
     margin: 0 0 20px;
 }
 
@@ -244,7 +244,7 @@
 
 .item-box .product-title a:hover,
 .item-box .product-title a:focus {
-    color: $blue-2
+    color: $active-link-hover-color
 }
 
 .item-box .sku {
@@ -295,14 +295,14 @@
 .item-box .old-price {
     margin: 0 5px 0 0;
     font-size: 16px;
-    color: $gray-12;
+    color: $old-price-color;
     text-decoration: line-through;
 }
 
 .item-box .actual-price {
     margin: 0 5px 0 0;
     font-size: 16px;
-    color: $gray-11;
+    color: $actual-price-color;
 }
 
 .item-box .tax-shipping-info a {
@@ -331,20 +331,20 @@
     background-color: $button-color;
     text-align: center;
     font-size: 15px;
-    color: $white-1;
+    color: $button-text-color;
     text-transform: uppercase;
 }
 
 .item-box .product-box-add-to-cart-button:hover,
 .item-box .product-box-add-to-cart-button:focus {
-    background-color: $blue-2
+    background-color: $button-hover-color
 }
 
 .item-box .add-to-compare-list-button,
 .item-box .add-to-wishlist-button {
     width: 20%;
-    border-left: 1px solid $white-1 !important;
-    background-color: $gray-13;
+    border-left: 1px solid $border-light-color !important;
+    background-color: $secondary-button-color;
     background-position: center;
     background-repeat: no-repeat;
     font-size: 0;
@@ -362,7 +362,7 @@
 .item-box .add-to-compare-list-button:focus,
 .item-box .add-to-wishlist-button:hover,
 .item-box .add-to-wishlist-button:focus {
-    background-color: $gray-3;
+    background-color: $secondary-button-hover-color;
 }
 
 .home-page-category-grid,
@@ -407,7 +407,7 @@
     z-index: 2;
     width: 100%;
     height: 100%;
-    background: $white-2 url(../images/loading.gif) center no-repeat;
+    background: $loading-background-color url(../images/loading.gif) center no-repeat;
 }
 
 .product-grid,
@@ -417,11 +417,11 @@
 
 .product-grid .title {
     margin: 0 0 30px;
-    border-bottom: 1px solid $gray-3;
+    border-bottom: 1px solid $border-color;
     padding: 0 0 15px;
     font-size: 30px;
     font-weight: normal;
-    color: $gray-2;
+    color: $header-color;
 }
 
 .product-grid .title strong {
@@ -440,7 +440,7 @@
 }
 
 .manufacturer-grid .picture {
-    border: 1px solid $gray-3;
+    border: 1px solid $border-color;
 }
 
 .vendor-grid .title {
@@ -455,7 +455,7 @@
 }
 
 .vendor-grid .picture {
-    border: 1px solid $gray-3;
+    border: 1px solid $border-color;
 }
 
 .pager {
@@ -478,8 +478,8 @@
     display: block;
     min-width: 35px;
     height: 35px;
-    border: 1px solid $gray-3;
-    background-color: $gray-9;
+    border: 1px solid $border-color;
+    background-color: $page-button-color;
     padding: 8px;
     text-align: center;
     font-size: 14px; /*reset zeroing*/
@@ -489,7 +489,7 @@
 .pager li span {
     border-color: transparent;
     background-color: $active-link-color;
-    color: $white-1;
+    color: $button-text-color;
 }
 
 .pager li.previous-page *,
@@ -499,7 +499,7 @@
     background-position: center;
     background-repeat: no-repeat;
     font-size: 0;
-    color: $white-1;
+    color: $button-text-color;
 }
 
 .pager li.previous-page * {
@@ -521,5 +521,5 @@
 .pager li a:hover,
 .pager li a:focus {
     border-color: transparent;
-    background-color: $gray-3;
+    background-color: $secondary-button-hover-color;
 }
