@@ -5,7 +5,7 @@
 
 .block-blog-archive .number {
     display: block;
-    color: $gray-2;
+    color: $header-color;
     cursor: auto;
 }
 
@@ -40,7 +40,7 @@
     line-height: 20px;
     font-size: 16px;
     font-weight: bold;
-    color: $gray-2;
+    color: $header-color;
 }
 
 .post-title:hover,
@@ -54,10 +54,10 @@
 .news-date {
     display: block;
     margin: 0 0 15px;
-    background-color: $gray-7;
+    background-color: $alt-row-color;
     padding: 10px;
     font-style: italic;
-    color: $gray-2;
+    color: $header-color;
 }
 
 .post-body,
@@ -79,7 +79,7 @@
     display: inline-block;
     margin: 0 0 3px 3px;
     font-weight: bold;
-    color: $gray-2;
+    color: $header-color;
 }
 
 .blog-page .tags ul,
@@ -123,7 +123,7 @@
     display: block;
     margin: 0 0 15px;
     font-weight: bold;
-    color: $gray-2;
+    color: $header-color;
 }
 
 .blog-posts .buttons .read-comments:hover,
@@ -138,7 +138,7 @@
     background-color: $button-color;
     padding: 10px 20px;
     font-size: 12px;
-    color: $white-1;
+    color: $button-text-color;
     text-transform: uppercase;
 }
 
@@ -146,7 +146,7 @@
 .blog-posts .buttons .read-more:focus,
 .news-items .buttons .read-more:hover,
 .news-items .buttons .read-more:focus {
-    background-color: $blue-2;
+    background-color: $button-hover-color;
 }
 
 .new-comment {
@@ -158,7 +158,7 @@
 }
 
 .new-comment .result {
-    color: $green-3;
+    color: $new-comment-message-color;
 }
 
 .new-comment .form-fields {
@@ -171,13 +171,13 @@
     padding: 10px 30px;
     text-align: center;
     font-size: 15px;
-    color: $white-1;
+    color: $button-text-color;
     text-transform: uppercase;
 }
 
 .new-comment .button-1:hover,
 .new-comment .button-1:focus {
-    background-color: $blue-2;
+    background-color: $button-hover-color;
 }
 
 .comment-list {
@@ -188,7 +188,7 @@
     margin: 0 0 15px;
     padding: 0 10px;
     font-size: 20px;
-    color: $gray-2;
+    color: $header-color;
 }
 
 .comment-list .title strong {
@@ -197,7 +197,7 @@
 
 .comment-list .comment {
     margin: 0 0 40px;
-    border-top: 1px solid $gray-3;
+    border-top: 1px solid $border-color;
 }
 
 .comment-list .comment:after {
@@ -214,11 +214,11 @@
 .comment-info .username {
     display: block;
     margin: 0 0 -1px;
-    border: 1px solid $gray-3;
-    background-color: $gray-7;
+    border: 1px solid $border-color;
+    background-color: $alt-row-color;
     padding: 11px 0;
     font-weight: bold;
-    color: $gray-2;
+    color: $header-color;
 }
 
 .comment-info a.username:hover,
@@ -230,7 +230,7 @@
     position: relative;
     width: 150px;
     height: 150px;
-    border: 1px solid $gray-3;
+    border: 1px solid $border-color;
     overflow: hidden;
 }
 
@@ -243,7 +243,7 @@
     max-width: 100%;
     max-height: 100%;
     margin: auto;
-    border: solid 2px $gray-25 !important;
+    border: solid 2px $border-dark-color !important;
 }
 
 .comment-time {
@@ -254,13 +254,13 @@
 
 .comment-time span {
     display: inline-block;
-    color: $gray-2;
+    color: $header-color;
 }
 
 .comment-title {
     margin: 0 0 15px;
     font-size: 16px;
-    color: $gray-2;
+    color: $header-color;
 }
 
 .comment-body {
@@ -273,11 +273,11 @@
 
 .news-list-homepage .title {
     margin: 0 0 -1px;
-    border-bottom: 1px solid $gray-3;
+    border-bottom: 1px solid $border-color;
     padding: 0 0 15px;
     font-size: 30px;
     font-weight: normal;
-    color: $gray-2;
+    color: $header-color;
 }
 
 .news-list-homepage .title strong {
@@ -289,7 +289,7 @@
 }
 
 .news-list-homepage .view-all a {
-    color: $gray-2;
+    color: $header-color;
     text-decoration: underline;
 }
 
